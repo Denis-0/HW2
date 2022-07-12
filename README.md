@@ -43,4 +43,5 @@ sudo docker run -it --rm --network pg-net --name pg-client postgres:14 psql -h p
 • проверить, что данные остались на месте
 данные на месте
 ![image](https://user-images.githubusercontent.com/45406197/178511948-1db96ac0-4dbe-4379-9fb9-27d3ff847863.png)
+
 select * from test;
